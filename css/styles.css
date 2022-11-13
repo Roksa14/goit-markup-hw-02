@@ -2,6 +2,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--black);
+    font-size: 14px;
+    background-color: var(--white);
+
 }
 
 :root{
@@ -28,7 +31,7 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     color: var(--logo-black);
 }
 
@@ -37,7 +40,7 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     color: var(--blue-brand);
 }
 
@@ -52,9 +55,9 @@ body {
 .nav-link{
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
+    color: var(--black);
 }
 
 .header-contact:hover, .header-contact:focus{
@@ -68,27 +71,49 @@ body {
 .header-contact {
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--gray);
 }
 
 .main-title-section{
     background: var(--background);
-    width: 1600px;
-    height: 600px;
 }
 
 .main-title{
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white);
 }
+
+.portfolio-main-title{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;}
+
+.hiden-title{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;   
+    }
 
 .title-button{
     background: var(--blue-brand);
@@ -108,26 +133,22 @@ body {
     cursor: pointer;
 }
 
-.section-title{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+.about-title{
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.section-description{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+.about-description{
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--gray);
 }
 
-.title{
+.section-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -147,18 +168,17 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
-.stuff-name{
+.team-name{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.8;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
-.position{
-    font-weight: 400;
+.team-position{
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.8;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--gray);
@@ -177,9 +197,15 @@ body {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     letter-spacing: 0.03em;
     cursor: pointer;
+}
+
+.portfolio-button:hover, .portfolio-button:focus{
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 .product-box{
@@ -192,25 +218,19 @@ body {
 }
 
 .product-name{
-    font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
 .product-description{
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--gray);
 }
 
 .footer-section{
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2094px;
     background: var(--background);
 }
 
@@ -218,7 +238,7 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--white);
     text-decoration: none;
@@ -228,15 +248,14 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--blue-brand);
     text-decoration: none;
 }
 
 .address-information{
-    font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--white);
     text-decoration: none;
@@ -245,8 +264,7 @@ body {
 
 .footer-contact{
     text-decoration: none;
-    font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
