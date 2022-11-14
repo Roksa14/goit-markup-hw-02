@@ -1,275 +1,281 @@
-
 body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--black);
-    font-size: 14px;
-    background-color: var(--white);
-
+  font-family: "Roboto", sans-serif;
+  color: var(--black);
+  font-size: 14px;
+  background-color: var(--white);
 }
 
-:root{
-    --black:#212121;
-    --white: #FFFFFF;
-    --gray: #757575;
-    --background: #2F303A;
-    --background-light: #F5F4FA;
-    --blue-brand: #2196F3;
-    --logo-black:#000000;
+:root {
+  --black: #212121;
+  --white: #ffffff;
+  --gray: #757575;
+  --background: #2f303a;
+  --background-light: #f5f4fa;
+  --blue-brand: #2196f3;
+  --logo-black: #000000;
 }
 
-
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
 
-.header-list .link:focus .link:hover .link:active{ 
-    color: var(--blue-brand);
+.header-list .link:focus .link:hover .link:active {
+  color: var(--blue-brand);
 }
 
 .header-logo-studio {
-    text-decoration: none;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    color: var(--logo-black);
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-black);
 }
 
-.header-logo-web{
-    text-decoration: none;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    color: var(--blue-brand);
+.header-logo-web {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--blue-brand);
 }
 
-.nav-link:hover, .nav-link:focus{
-    color: var(--blue-brand);
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--blue-brand);
 }
 
-.nav-link:active{
-    color: var(--blue-brand);
+.nav-link:active {
+  color: var(--blue-brand);
 }
 
-.nav-link{
-    text-decoration: none;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--black);
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--black);
 }
 
-.header-contact:hover, .header-contact:focus{
-    color: var(--blue-brand);
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--blue-brand);
 }
 
-.header-contact:active{
-    color: var(--blue-brand);
+.header-contact:active {
+  color: var(--blue-brand);
 }
 
 .header-contact {
-    text-decoration: none;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--gray);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--gray);
 }
 
-.main-title-section{
-    background: var(--background);
+.main-title-section {
+  background: var(--background);
 }
 
-.main-title{
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--white);
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
 }
 
-.portfolio-main-title{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;}
-
-.hiden-title{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;   
-    }
-
-.title-button{
-    background: var(--blue-brand);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: 0cm;
-    width: 216px;
-    height: 50px;
-    left: 692px;
-    top: 430px;
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px; 
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--white);
-    cursor: pointer;
+.portfolio-main-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-.about-title{
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.hiden-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-.about-description{
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--gray);
+.title-button {
+  background: var(--blue-brand);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0cm;
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  cursor: pointer;
 }
 
-.section-title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
+.about-title {
+    font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.position-section{
-  
-    background: var(--background-light);
+.about-description {
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--gray);
 }
 
-.position-box{
-    width: 270px;
-    height: 368px;
-    left: 515px;
-    top: 1632px;
-    background: var(--white);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+.section-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.team-name{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.8;
-    text-align: center;
-    letter-spacing: 0.03em;
+.position-section {
+  background: var(--background-light);
 }
 
-.team-position{
-    font-size: 16px;
-    line-height: 1.8;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--gray);
+.position-box {
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 1632px;
+  background: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.button:hover, .button:focus{
-    background: var(--blue-brand);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.portfolio-button{
-    background: var(--background-light);
-    border-radius: 4px;
-    border: 0cm;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-    cursor: pointer;
+.team-position {
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--gray);
 }
 
-.portfolio-button:hover, .portfolio-button:focus{
-    background: #2196F3;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+.button:hover,
+.button:focus {
+  background: var(--blue-brand);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
-.product-box{
-    width: 370px;
-    height: 404px;
-    left: 615px;
-    top: 262px;
-    background: var(--white);
-    border: 1px solid #EEEEEE;
+.portfolio-button {
+  background: var(--background-light);
+  border-radius: 4px;
+  border: 0cm;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
-.product-name{
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background: var(--blue-brand);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--white);
 }
 
-.product-description{
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.03em;
-    color: var(--gray);
+.product-box {
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 262px;
+  background: var(--white);
+  border: 1px solid #eeeeee;
 }
 
-.footer-section{
-    background: var(--background);
+.product-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
-.footer-logo-studio{
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--white);
-    text-decoration: none;
+.product-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--gray);
 }
 
-.footer-logo-web{
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--blue-brand);
-    text-decoration: none;
+.footer-section {
+  background: var(--background);
 }
 
-.address-information{
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--white);
-    text-decoration: none;
-    font-style: normal;
+.footer-logo-studio {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  text-decoration: none;
 }
 
-.footer-contact{
-    text-decoration: none;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    font-style: normal;
+.footer-logo-web {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--blue-brand);
+  text-decoration: none;
 }
 
-.footer-contact:hover, .footer-contact:focus{
-    color: var(--blue-brand);
+.address-information {
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer-contact {
+  text-decoration: none;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--blue-brand);
 }
